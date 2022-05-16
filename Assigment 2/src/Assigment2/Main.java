@@ -18,12 +18,18 @@ public class Main {
 		houses.price.add(true);
 		houses.price.add(true);
 		houses.price.add(true);
-		houses.photos.add(true);
-		houses.photos.add(false);
-		houses.photos.add(true);
+		photos.photos.add(true);
+		photos.photos.add(false);
+		photos.photos.add(true);
 		houses.ready.add(true);
 		houses.ready.add(false);
 		houses.ready.add(true);
+		houses.id.add(1);
+		houses.id.add(2);
+		houses.id.add(3);
+		photos.id.add(1);
+		photos.id.add(2);
+		photos.id.add(3);
 		Menu.menu();
 
 	}
